@@ -4,14 +4,14 @@ As a part of the operating systems lab, we were asked to implement various aspec
 
 We implemented the various functionalities spread across different assignments.
 
-## Assignment 1
+## Assignment 0
 
 This assignment was mostly to familiarise ourselves with xv6. We defined a basic system call for our mini OS.
 The output-
 
 ![image](https://user-images.githubusercontent.com/88557062/232106419-99d7bc4f-b1f3-4a8b-bf78-bea2b0b971ba.png)
 
-## Assignment 2
+## Assignment 1
 
 We first implemented kernel threads and then built spinlocks and mutexes to synchronize access among them. To make it more real and fun, we implemented interface of the POSIX threads that are de facto standard on most UNIX systems.
 
@@ -41,7 +41,7 @@ For implementing mutexes, we created three system calls-
 
 We got the correct answer as 6000, and the time taken was low as well.
 
-## Assignment 3
+## Assignment 2
 
 It had 2 parts
 
@@ -58,7 +58,7 @@ The current scheduler in xv6 is an unweighted round-robin scheduler. In this par
 
 ![image](https://github.com/banerjeepragyan/Operating-Systems-Lab/assets/88557062/56d1ac8e-5fe9-47dd-a8c2-0a930585f4b5)
 
-## Assignment 4
+## Assignment 3
 
 It had 2 parts.
 
@@ -76,7 +76,7 @@ Also, we created a process queue that keeps track of the processes that were ref
 
 ![image](https://github.com/banerjeepragyan/Operating-Systems-Lab/assets/88557062/ae7d2e7d-941f-4d56-8499-3e31ffb02fa8)
 
-## Assignment 5
+## Assignment 4
 
 In this assignment, we quantitatively compare and quantify the advantages of the various new features in ext and ZFS file systems.
 
